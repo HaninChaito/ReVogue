@@ -1,5 +1,5 @@
 # ReVogue
-A MERN stack-based platform, ReVogue is a clothing store that enables users to buy and sell pre-owned clothes, promoting sustainability and affordable fashion.
+A MERN stack-based platform, ReVogue is a clothing store that enables users to buy and sell both pre-owned and new clothes, promoting sustainability, affordable fashion, and a wide variety of styles.
 
 ## Features
 - User authentication and authorization
