@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Main Container */
+  .checkout-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  /* Header */
+  .checkout-container h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Invoice Section */
+  .invoice {
+    margin-bottom: 1.5rem;
+  }
+  
+  .invoice p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .invoice p span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Form Section */
+  .payment-form {
+    margin-top: 1rem;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .payment-form button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .payment-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Confirmation Section */
+  .confirmation-message {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: green;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .checkout-container {
+      padding: 1rem;
+      margin: 1rem;
+    }
+  
+    .invoice p {
+      font-size: 0.9rem;
+    }
+  
+    .payment-form input,
+    .payment-form button {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,120 @@
+.requests {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.requests h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.requests-header {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.requests-row {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+}
+
+.requests-product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.requests-actions {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.requests-remove-icon {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+.requests-accept-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 3px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.requests-accept-btn:hover {
+  background-color: darkgreen;
+}
+
+.requests-price-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.requests-price-input input {
+  width: 80px;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.requests-price-input button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 3px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.requests-price-input button:hover {
+  background-color: darkblue;
+}
+
+.requests-row p {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-requests {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .requests-header,
+  .requests-row {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 10px;
+  }
+
+  .requests-product-image {
+    width: 40px;
+    height: 40px;
+  }
+}

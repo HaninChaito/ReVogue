@@ -1,0 +1,56 @@
+/* General styling for the promo container */
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #fff4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the promo name group */
+  .promo-name {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .promo-name p {
+    font-size: 14px;
+    color: #a94442;
+    margin-bottom: 5px;
+  }
+  
+  /* Input field styling */
+  .promo-name input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d9534f;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .promo-name input:focus {
+    border-color: #c9302c;
+  }
+  
+  /* Button styling */
+  .removepromo-btn {
+    background-color: #d9534f;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .removepromo-btn:hover {
+    background-color: #c9302c;
+  }
+  
